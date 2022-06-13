@@ -21,3 +21,19 @@
   /* padding-bottom: 250px; */
   /* padding: 58px 0 16px; */
 }
+
+@media screen and (max-width: 768px) {
+  #sec-3 {
+    /* width: 100%; */
+    margin: auto;
+  }
+  #sec-3 .card-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  #sec-3 h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+}

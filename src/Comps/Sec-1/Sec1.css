@@ -62,3 +62,21 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  #sec-1 {
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+  }
+  #sec-1 .right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 110px;
+    right: 0;
+  }
+  #sec-1 h2 {
+    font-size: 43px;
+  }
+}

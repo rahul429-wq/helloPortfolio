@@ -34,3 +34,22 @@
   padding: 25px;
   border: 5px dotted white;
 }
+
+@media screen and (max-width: 768px) {
+  #sec-4 {
+    /* width: 100%; */
+    margin: auto;
+  }
+  #sec-4 h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+  }
+  #sec-4 .div1 {
+    width: 100%;
+    text-align: center;
+  }
+  #sec-4 a {
+    text-align: center;
+  }
+}

@@ -1,3 +1,9 @@
 #sec-3 i {
   font-size: 35px;
 }
+
+@media screen and (max-width: 768px) {
+  .Cards {
+    border-bottom: 1px solid white;
+  }
+}

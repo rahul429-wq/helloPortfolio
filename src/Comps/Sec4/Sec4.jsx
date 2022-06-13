@@ -10,7 +10,9 @@ const Sec4 = () => {
         The purpose of Mine is to to take My development skills to the next
         level and build awesome apps.
       </p>
-      <a href="mailto:bhavikprajapati4244@gmail.com">Mail me</a>
+      <div className="div1">
+        <a href="mailto:bhavikprajapati4244@gmail.com">Mail me</a>
+      </div>
     </div>
   );
 };

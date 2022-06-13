@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = ({ langs }) => {
   return (
-    <div>
+    <div className="Cards">
       <a href="#">
         <i className={langs.logo}></i>
       </a>
