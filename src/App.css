@@ -5,3 +5,7 @@ body {
 .App {
   background: #0f1624;
 }
+
+img {
+  object-fit: cover !important;
+}

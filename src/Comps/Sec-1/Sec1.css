@@ -69,6 +69,10 @@
     flex-direction: column;
     position: relative;
   }
+  #sec-1 .left {
+    width: 80%;
+  }
+
   #sec-1 .right {
     position: absolute;
     top: 0;

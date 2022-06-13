@@ -30,6 +30,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  img {
+    object-fit: cover;
+  }
   #sec-2 {
     /* width: 100%; */
     margin: auto;
