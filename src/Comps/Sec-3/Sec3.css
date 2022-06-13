@@ -1,0 +1,23 @@
+#sec-3 {
+  width: 80%;
+  margin: auto;
+}
+#sec-3 h2 {
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  /* padding-bottom: 250px; */
+  /* padding: 58px 0 16px; */
+}

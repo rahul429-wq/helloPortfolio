@@ -1,0 +1,11 @@
+.Myline {
+  width: 64px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
+}
+
+.contain {
+  width: 80%;
+}
