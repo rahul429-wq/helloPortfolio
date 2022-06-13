@@ -17,7 +17,7 @@ const Sec1 = () => {
           className="my-btn"
           href="https://drive.google.com/file/d/1BLnLdoJQEdP6kuCxO5MMbh9SRRHo-Y2R/view?usp=sharing"
         >
-          Portfolio
+          Resume
         </a>
       </div>
       <div className="right">
