@@ -7,5 +7,5 @@ body {
 }
 
 img {
-  object-fit: cover !important;
+  object-fit: contain !important;
 }

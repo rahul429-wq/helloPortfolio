@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 768px) {
   img {
-    object-fit: cover;
+    object-fit: contain;
   }
   #sec-2 {
     /* width: 100%; */

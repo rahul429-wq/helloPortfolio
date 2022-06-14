@@ -14,6 +14,8 @@ const Sec2 = () => {
           <Card key={project.id} project={project} />
         ))}
       </div>
+      <br />
+      <br />
     </div>
   );
 };
