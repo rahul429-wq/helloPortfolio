@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "My Portfolio",
+    description:
+      "My Portfolio Contains All the Projects I Have Done So Far. It is a React Application.Also It Contains Basic Information About Me.",
+    image: "/images/8.png",
+    source: "https://bhavik-portfolio.netlify.app/",
+    id: -1,
+  },
+  {
     title: "JWT Authentication ",
     description:
       "The App Contains Jwt authentication routes security token and many more...,and it is a simple  app that allows users on the basis of Authorization",
@@ -47,30 +55,36 @@ export const Langs = [
     logo: "fa-brands fa-react",
     title: "Front-End",
     langname: "React Js",
+    id: 1,
   },
   {
     logo: "fa-solid fa-database",
     title: "Back-End",
     langname: "Node and Database",
+    id: 2,
   },
   {
     logo: "fa-brands fa-figma",
     title: "Ui/Ux",
     langname: " tools like Figma",
+    id: 3,
   },
   {
     logo: "fa-brands fa-git-alt",
     title: "Git/Github",
     langname: " tools like Git and Github",
+    id: 4,
   },
   {
     logo: "fa-solid fa-bezier-curve",
     title: "Ps/Ai",
     langname: " tools like Photoshop and Illustrator",
+    id: 5,
   },
   {
     logo: "fa-solid fa-arrow-pointer",
     title: "Research",
     langname: " Tools like Google and StackOverflow",
+    id: 6,
   },
 ];
