@@ -2,6 +2,7 @@ body {
   /* position: relative; */
 }
 #m-btn {
+  cursor: pointer;
   transition: 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   /* width: 200px; */
   width: 50px;
