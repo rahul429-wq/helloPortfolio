@@ -3,7 +3,7 @@ import "./Card.css";
 const Card = ({ project }) => {
   return (
     <div className="card">
-      <img src={project.image} />
+      <img alt={project.alt} src={project.image} />
       <h3>{project.title}</h3>
       <p>{project.description}</p>
       <div style={{ textAlign: "center" }}>

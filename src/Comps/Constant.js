@@ -6,6 +6,7 @@ export const projects = [
     image: "/images/8.png",
     source: "https://bhavik-portfolio.netlify.app/",
     id: -1,
+    alt: "My Portfolio",
   },
   {
     title: "JWT Authentication ",
@@ -14,6 +15,7 @@ export const projects = [
     image: "/images/4.png",
     source: "https://github.com/rahul429-wq/jwtAuthentication",
     id: 0,
+    alt: "Jwt Authentication",
   },
   {
     title: "Ishanvisa",
@@ -22,6 +24,7 @@ export const projects = [
     image: "/images/5.png",
     source: "https://ishanvisa.com/",
     id: 1,
+    alt: "ishanvisa",
   },
   {
     title: "Unsplash Clone ",
@@ -30,6 +33,7 @@ export const projects = [
     image: "/images/1.png",
     source: "https://unsplash-clone-react-app.netlify.app/",
     id: 2,
+    alt: "Unsplash Clone",
   },
   {
     title: "TODO App",
@@ -39,6 +43,7 @@ export const projects = [
 
     source: "https://github.com/rahul429-wq/Todo-ReactNative-",
     id: 3,
+    alt: "TODO App",
   },
   {
     title: "Color Flipper",
@@ -48,6 +53,7 @@ export const projects = [
 
     source: "https://color-flipper-react.netlify.app/",
     id: 4,
+    alt: "Color Flipper",
   },
 ];
 export const Langs = [
