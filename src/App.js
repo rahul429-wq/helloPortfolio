@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Comps/Header/Header";
+import Music from "./Comps/Music/Music";
 import MyLine from "./Comps/MyLine";
 import Sec1 from "./Comps/Sec-1/Sec1";
 import Sec2 from "./Comps/Sec-2/Sec2";
@@ -22,6 +23,8 @@ function App() {
       <br />
       <br />
       <br />
+
+      <Music />
     </div>
   );
 }

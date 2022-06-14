@@ -41,6 +41,13 @@ const Header = () => {
             <i className="fa-brands fa-linkedin"></i>
           </a>
         </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/Bhavikp46526281">
+            {/* <i className="fa fa-linkedin"></i> */}
+            {/* <i className="fa-brands fa-linkedin"></i> */}
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
       </ul>
     </div>
   );
