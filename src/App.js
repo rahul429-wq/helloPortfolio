@@ -6,6 +6,7 @@ import Sec1 from "./Comps/Sec-1/Sec1";
 import Sec2 from "./Comps/Sec-2/Sec2";
 import Sec3 from "./Comps/Sec-3/Sec3";
 import Sec4 from "./Comps/Sec4/Sec4";
+import Theme from "./Comps/Theme/Theme";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
       <br />
       <br />
       <br />
+
+      <Theme />
 
       <Music />
     </div>

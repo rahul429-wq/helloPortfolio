@@ -1,11 +1,15 @@
 html,
 body {
   scroll-behavior: smooth;
-}
-.App {
   background: #0f1624;
 }
-
+.App {
+  /* background: #0f1624; */
+  /* background: #0f1624; */
+}
+.toggle {
+  background: white;
+}
 img {
   object-fit: cover !important;
 }

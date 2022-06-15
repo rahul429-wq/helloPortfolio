@@ -1,0 +1,20 @@
+#theme {
+  border-radius: 10%;
+  padding: 10px;
+
+  background-image: linear-gradient(to top, #2a4c4c 0%, #330867 100%);
+  /* background-image: linear-gradient(to top, #330867, #30cfd0 50% 60%); */
+  border: none;
+  outline: none;
+
+  position: fixed;
+  left: 5px;
+  bottom: 1%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #theme {
+    display: none;
+  }
+}
