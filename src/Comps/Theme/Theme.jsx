@@ -1,17 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Theme.css";
 
 const Theme = () => {
-  const [theme, settheme] = useState("0f1624");
+  const [theme, settheme] = useState("#0f1624");
+  useEffect(() => {
+    settheme("#0f1624");
+    console.log(theme);
+    document.body.style.background = theme;
+  }, []);
 
   const themechange = () => {
-    console.log("object");
+    console.log(theme);
+    if (theme === "#0f1624") {
+      settheme("black");
+      document.body.style.background = "black";
+    }
     if (theme === "black") {
       settheme("#0f1624");
-      document.body.style.background = theme;
-    } else {
-      settheme("black");
-      document.body.style.background = theme;
+      document.body.style.background = "#0f1624";
     }
 
     //   settheme("white");
