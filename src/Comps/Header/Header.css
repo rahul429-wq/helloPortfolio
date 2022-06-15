@@ -13,18 +13,18 @@
   /* padding-left: 10px; */
   padding-left: 160px;
 }
-.header .nav-links li {
+.header .nav-links li a {
   padding: 10px;
   transition: 0.2s cubic-bezier(0.47, 0, 0.745, 0.715);
   font-size: 1.2rem;
 }
 
-.header .social li {
+.header .social a {
   padding: 5px;
 }
-.header .nav-links li:hover {
+.header .nav-links li:hover a {
   border-bottom: 3px solid white;
-  border-left: 1px solid white;
+  /* border-left: 1px solid white; */
   cursor: pointer;
 }
 .header .social {

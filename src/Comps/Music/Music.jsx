@@ -42,7 +42,7 @@ class Music extends Component {
           id="m-btn"
           style={{
             border: `${
-              this.state.isPlaying ? "2px dotted white" : "0px solid #c6c8cb"
+              this.state.isPlaying ? "5px solid gray" : "0px solid #c6c8cb"
             }`,
           }}
           onClick={this.playPause}

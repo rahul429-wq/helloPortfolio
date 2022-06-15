@@ -12,17 +12,19 @@ body {
   background-color: black;
   /* color: black; */
   position: fixed;
+  outline: none;
+  user-select: none;
   bottom: 5%;
   right: 5%;
-  background: #c31432;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#240b36),
-    to(#c31432)
-  );
-  background: linear-gradient(to right, #240b36, #c31432);
+
+  background: linear-gradient(121deg, #ff0000 0%, #ff0000 100%),
+    linear-gradient(140deg, #ff5454 27%, #223dcb 100%),
+    linear-gradient(140deg, #4e9c51 0%, #001aff 72%),
+    linear-gradient(64deg, #6e00ff 0%, #0038ff 100%),
+    radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%),
+    radial-gradient(100% 100% at 70% 0%, #7a3b00 0%, #1dac92 100%);
+  background-blend-mode: overlay, overlay, difference, difference, color-burn,
+    exclusion;
 }
 #m-btn:hover {
   background-color: rgb(58, 27, 27);
