@@ -97,35 +97,33 @@ export const Langs = [
 
 export const anims = [
   {
-    id: 0,
+    id: 2,
     title: "Mountain",
     image: "/images/9.png",
     link: "https://codepen.io/rahul429-wq/pen/vYedKbP",
   },
   {
-    id: 1,
+    id: 3,
     title: "Bicycle",
     image: "/images/10.png",
     link: "https://codepen.io/rahul429-wq/pen/LYWNdWW",
   },
   {
     id: 1,
-    title: "2",
+    title: "Todo",
+    image: "/images/15.png",
+    link: "https://codepen.io/rahul429-wq/pen/MWpaLxW",
+  },
+  {
+    id: 5,
+    title: "Burger",
+    image: "/images/14.png",
+    link: "https://codepen.io/rahul429-wq/pen/dyvMwdQ",
+  },
+  {
+    id: 4,
+    title: "Explore",
     image: "/images/13.png",
     link: "https://codepen.io/rahul429-wq/pen/yLMqppj",
-  },
-  {
-    id: 1,
-    title: "2",
-    image:
-      "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
-    link: "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
-  },
-  {
-    id: 1,
-    title: "2",
-    image:
-      "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
-    link: "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
   },
 ];
