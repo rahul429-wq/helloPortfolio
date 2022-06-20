@@ -45,7 +45,7 @@
   scroll-snap-align: start;
   clear: both;
   position: relative;
-  border: 3px dotted rgb(126, 112, 112);
+  /* border: 2px dashed rgb(126, 112, 112); */
   /* padding: 10px; */
 }
 
@@ -63,7 +63,7 @@
   width: 100%;
   height: 100%;
   border-radius: 16px;
-  background-position: left;
+  background-position: le;
 
   /* display: grid; */
   /* grid-template-rows: 1fr 4fr; */
