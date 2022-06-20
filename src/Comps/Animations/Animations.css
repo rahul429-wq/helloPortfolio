@@ -1,0 +1,109 @@
+#animation {
+  width: 80%;
+  margin: auto;
+}
+
+.card-list {
+  display: flex;
+  padding: 5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.card-list::-webkit-scrollbar {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb {
+  cursor: pointer;
+
+  background: #201c29;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-list::-webkit-scrollbar-track {
+  cursor: pointer;
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+.card-list .card {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  border-bottom: 0px none;
+  background: #0f1624;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+  border: 3px dotted rgb(126, 112, 112);
+  /* padding: 10px; */
+}
+
+.card-list .card:focus-within ~ .card,
+.card-list .card:hover ~ .card {
+  transform: translateX(100px);
+}
+
+.card-list .card:hover {
+  transform: translateY(-1rem);
+}
+
+.grid-card {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  background-position: left;
+
+  /* display: grid; */
+  /* grid-template-rows: 1fr 4fr; */
+}
+
+.grid-image-container {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.grid-image-container img {
+  /* height: 100%; */
+
+  object-fit: contain !important;
+  width: 100%;
+}
+
+#animation h2 {
+  height: 10%;
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  /* padding-bottom: 250px; */
+  /* padding: 58px 0 16px; */
+}
+
+iframe {
+  height: 350px;
+  border-radius: 10px;
+}

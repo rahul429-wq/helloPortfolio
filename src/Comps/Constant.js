@@ -64,7 +64,7 @@ export const Langs = [
     id: 1,
   },
   {
-    logo: "fa-solid fa-database",
+    logo: "fa-brands fa-node-js",
     title: "Back-End",
     langname: "Node and Database",
     id: 2,
@@ -92,5 +92,40 @@ export const Langs = [
     title: "Research",
     langname: " Tools like Google and StackOverflow",
     id: 6,
+  },
+];
+
+export const anims = [
+  {
+    id: 0,
+    title: "Mountain",
+    image: "/images/9.png",
+    link: "https://codepen.io/rahul429-wq/pen/vYedKbP",
+  },
+  {
+    id: 1,
+    title: "Bicycle",
+    image: "/images/10.png",
+    link: "https://codepen.io/rahul429-wq/pen/LYWNdWW",
+  },
+  {
+    id: 1,
+    title: "2",
+    image: "/images/13.png",
+    link: "https://codepen.io/rahul429-wq/pen/yLMqppj",
+  },
+  {
+    id: 1,
+    title: "2",
+    image:
+      "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
+    link: "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
+  },
+  {
+    id: 1,
+    title: "2",
+    image:
+      "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
+    link: "https://cdn.pixabay.com/photo/2022/05/18/17/50/dog-7205842_960_720.jpg",
   },
 ];

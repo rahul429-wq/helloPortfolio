@@ -1,4 +1,5 @@
 import "./App.css";
+import Animations from "./Comps/Animations/Animations";
 import Header from "./Comps/Header/Header";
 import Music from "./Comps/Music/Music";
 import MyLine from "./Comps/MyLine";
@@ -16,6 +17,7 @@ function App() {
       {/* <MyLine /> */}
       <Sec2 />
       {/* <MyLine /> */}
+      <Animations />
       <Sec3 />
       {/* <MyLine /> */}
       <Sec4 />

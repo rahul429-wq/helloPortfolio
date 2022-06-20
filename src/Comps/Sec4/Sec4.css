@@ -1,7 +1,10 @@
 #sec-4 {
   width: 80%;
   margin: auto;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
 }
+
 #sec-4 h2 {
   font-weight: 800;
   font-size: 65px;
