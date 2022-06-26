@@ -2,10 +2,7 @@ html,
 body {
   scroll-behavior: smooth;
   background: #0f1624;
-}
-.App {
-  /* background: #0f1624; */
-  /* background: #0f1624; */
+  transition: 3s;
 }
 .toggle {
   background: white;
