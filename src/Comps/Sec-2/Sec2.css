@@ -22,6 +22,9 @@
   /* padding-bottom: 250px; */
   /* padding: 58px 0 16px; */
 }
+a {
+  color: white;
+}
 
 .card-container {
   display: grid;
