@@ -15,7 +15,7 @@ const Sec1 = () => {
         <a
           target="_blank"
           className="my-btn"
-          href="https://drive.google.com/file/d/1BLnLdoJQEdP6kuCxO5MMbh9SRRHo-Y2R/view?usp=sharing"
+          href="https://drive.google.com/file/d/1dhhnzrjHjUCsxxhUn7a3p-Q9EM29ig6B/view?usp=sharing"
         >
           Resume
         </a>
