@@ -43,10 +43,11 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/Bhavikp46526281">
+          <a target="_blank" href="https://www.youtube.com/channel/UCiP_JoAO2aNwFXVX-nrTc-w">
             {/* <i className="fa fa-linkedin"></i> */}
             {/* <i className="fa-brands fa-linkedin"></i> */}
-            <i class="fa-brands fa-twitter"></i>
+            
+            <i class="fa-brands fa-youtube"></i>
           </a>
         </li>
       </ul>
