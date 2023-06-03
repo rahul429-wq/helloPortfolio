@@ -21,7 +21,7 @@ export const projects = [
     title: "Youtube Clone",
     description:
       "This App is called Youtube clone it contains Use of rapid api and materialize Ui",
-    image: "/images/5.png",
+    image: "https://tmpfiles.org/dl/1492011/y5.png",
     source: "https://ishanvisa.com/",
     id: 1,
     alt: "ishanvisa",
