@@ -13,7 +13,7 @@ export const projects = [
     description:
       "The App Contains Jwt authentication routes security token and many more...,and it is a simple  app that allows users on the basis of Authorization",
     image: "/images/4.png",
-    source: "https://github.com/rahul429-wq/jwtAuthentication",
+    source: "https://github.com/Bhavik-prajapati/YoutubeClone",
     id: 0,
     alt: "Jwt Authentication",
   },
