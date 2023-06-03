@@ -18,9 +18,9 @@ export const projects = [
     alt: "Jwt Authentication",
   },
   {
-    title: "Ishanvisa",
+    title: "Youtube Clone",
     description:
-      "I build this website in c# using Three tier Architecture where I learned how Balance Access Layer and Data Access Layer works.",
+      "This App is called Youtube clone it contains Use of rapid api and materialize Ui",
     image: "/images/5.png",
     source: "https://ishanvisa.com/",
     id: 1,
