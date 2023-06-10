@@ -21,10 +21,10 @@ export const projects = [
     title: "Youtube Clone",
     description:
       "This App is called Youtube clone it contains Use of rapid api and materialize Ui",
-    image: "https://tmpfiles.org/dl/1492011/y5.png",
-    source: "https://ishanvisa.com/",
+    image: "/images/16.png",
+    source: "https://yt2-clone.netlify.app/",
     id: 1,
-    alt: "ishanvisa",
+    alt: "Yt2",
   },
   {
     title: "Unsplash Clone ",
@@ -36,12 +36,12 @@ export const projects = [
     alt: "Unsplash Clone",
   },
   {
-    title: "TODO App",
+    title: "Mern TODO App",
     description:
-      "This is a simple React Native Todo App that allows users to Add and remove Task of on Daily basis",
-    image: "/images/6.png",
+      "This is a simple todo but technologies contained are Node(express),React,Mongodb",
+    image: "/images/17.png",
 
-    source: "https://github.com/rahul429-wq/Todo-ReactNative-",
+    source: "https://github.com/Bhavik-prajapati/MernTodoApp.git",
     id: 3,
     alt: "TODO App",
   },
