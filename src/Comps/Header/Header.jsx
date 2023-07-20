@@ -28,6 +28,13 @@ const Header = () => {
           </a>
         </li>
         <li>
+          <a target="_blank" href="https://github.com/Bhavik-prajapati">
+            {/* <i className="fa fa-github"></i> */}
+            {/* <i className="fa-brands fa-github"></i> */}
+            <i class="fa-brands fa-github-alt"></i>
+          </a>
+        </li>
+        <li>
           <a target="_blank" href="https://www.instagram.com/rahul_420_/?hl=en">
             {/* <i className="fa fa-instagram"></i> */}
             <i className="fa-brands fa-instagram"></i>
