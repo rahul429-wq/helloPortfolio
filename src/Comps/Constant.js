@@ -5,8 +5,26 @@ export const projects = [
       "My Portfolio Contains All the Projects I Have Done So Far. It is a React Application.Also It Contains Basic Information About Me.",
     image: "/images/8.png",
     source: "https://bhavik-portfolio.netlify.app/",
-    id: -1,
+    id: 1,
     alt: "My Portfolio",
+  },
+  {
+    title: "Youtube Clone",
+    description:
+      "This App is called Youtube clone it contains Use of rapid api and materialize Ui",
+    image: "/images/16.png",
+    source: "https://yt2-clone.netlify.app/",
+    id: 2,
+    alt: "Yt2",
+  },
+  {
+    title: "CodewithWorld",
+    description:
+      "This is my YT channel where i showcase my skills and teach students like me.",
+    image: "/images/18.png",
+    source: "https://unsplash-clone-react-app.netlify.app/",
+    id: 5,
+    alt: "Unsplash Clone",
   },
   {
     title: "JWT Authentication ",
@@ -16,24 +34,6 @@ export const projects = [
     source: "https://github.com/Bhavik-prajapati/YoutubeClone",
     id: 0,
     alt: "Jwt Authentication",
-  },
-  {
-    title: "Youtube Clone",
-    description:
-      "This App is called Youtube clone it contains Use of rapid api and materialize Ui",
-    image: "/images/16.png",
-    source: "https://yt2-clone.netlify.app/",
-    id: 1,
-    alt: "Yt2",
-  },
-  {
-    title: "Unsplash Clone ",
-    description:
-      "The App is called Unsplash-clone and it is a simple  app that allows users to Search interesting photos they need.",
-    image: "/images/1.png",
-    source: "https://unsplash-clone-react-app.netlify.app/",
-    id: 2,
-    alt: "Unsplash Clone",
   },
   {
     title: "Mern TODO App",
@@ -46,14 +46,13 @@ export const projects = [
     alt: "TODO App",
   },
   {
-    title: "Color Flipper",
+    title: "Unsplash Clone",
     description:
-      "This is a simple React Application that allows users to get  the color codes which can help you to design your own website.",
-    image: "/images/7.png",
-
-    source: "https://color-flipper-react.netlify.app/",
+      "The App is called Unsplash-clone and it is a simple  app that allows users to Search interesting photos they need.",
+    image: "/images/1.png",
+    source: "https://unsplash-clone-react-app.netlify.app/",
     id: 4,
-    alt: "Color Flipper",
+    alt: "Unsplash Clone",
   },
 ];
 export const Langs = [
@@ -103,16 +102,16 @@ export const anims = [
     link: "https://codepen.io/rahul429-wq/pen/vYedKbP",
   },
   {
-    id: 3,
-    title: "Bicycle",
-    image: "/images/10.png",
-    link: "https://codepen.io/rahul429-wq/pen/LYWNdWW",
-  },
-  {
     id: 1,
     title: "Todo",
     image: "/images/15.png",
     link: "https://codepen.io/rahul429-wq/pen/MWpaLxW",
+  },
+  {
+    id: 3,
+    title: "Bicycle",
+    image: "/images/10.png",
+    link: "https://codepen.io/rahul429-wq/pen/LYWNdWW",
   },
   {
     id: 5,
