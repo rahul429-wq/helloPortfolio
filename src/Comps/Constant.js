@@ -116,7 +116,7 @@ export const anims = [
   {
     id: 5,
     title: "Solar system",
-    image: "/images/15.png",
+    image: "/images/151.png",
     link: "https://codepen.io/rahul429-wq/pen/ZEVpmpL",
   },
   {
