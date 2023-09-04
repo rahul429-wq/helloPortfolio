@@ -115,9 +115,9 @@ export const anims = [
   },
   {
     id: 5,
-    title: "Burger",
-    image: "/images/14.png",
-    link: "https://codepen.io/rahul429-wq/pen/dyvMwdQ",
+    title: "Solar system",
+    image: "/images/15.png",
+    link: "https://codepen.io/rahul429-wq/pen/ZEVpmpL",
   },
   {
     id: 4,
