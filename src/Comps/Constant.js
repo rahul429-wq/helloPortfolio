@@ -46,11 +46,11 @@ export const projects = [
     alt: "TODO App",
   },
   {
-    title: "Unsplash Clone",
+    title: "Property-listing",
     description:
-      "The App is called Unsplash-clone and it is a simple  app that allows users to Search interesting photos they need.",
-    image: "/images/1.png",
-    source: "https://unsplash-clone-react-app.netlify.app/",
+      "The App is called Brickease- and it is a simple  app that allows users to contact his/her required place to stay and rent and pg or buy house.",
+    image: "/images/prop.png",
+    source: "https://github.com/Bhavik-prajapati/plwa-web-app",
     id: 4,
     alt: "Unsplash Clone",
   },
