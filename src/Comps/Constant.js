@@ -18,6 +18,16 @@ export const projects = [
     alt: "Yt2",
   },
   {
+    title: "ShopEase",
+    description:
+      "Created an e-commerce application to showcase my skills using Redux and React.js, with a backend built on Node.js and PostgreSQL, following highly optimized approaches",
+    image: "/images/shop.png",
+    source: "https://shop-ecom-ease.netlify.app/",
+    id: 5,
+    alt: "shopease-ecommerce-app",
+  }
+  ,
+  {
     title: "CodewithWorld",
     description:
       "This is my YT channel where i showcase my skills and teach students like me.",
@@ -25,15 +35,6 @@ export const projects = [
     source: "https://code-with-world.netlify.app/",
     id: 5,
     alt: "Unsplash Clone",
-  },
-  {
-    title: "JWT Authentication ",
-    description:
-      "The App Contains Jwt authentication routes security token and many more...,and it is a simple  app that allows users on the basis of Authorization",
-    image: "/images/4.png",
-    source: "https://github.com/Bhavik-prajapati/YoutubeClone",
-    id: 0,
-    alt: "Jwt Authentication",
   },
   {
     title: "Mern TODO App",
