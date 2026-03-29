@@ -1,129 +1,167 @@
-export const projects = [
-  {
-    title: "My Portfolio",
-    description:
-      "My Portfolio Contains All the Projects I Have Done So Far. It is a React Application.Also It Contains Basic Information About Me.",
-    image: "/images/8.png",
-    source: "https://bhavik-portfolio.netlify.app/",
-    id: -1,
-    alt: "My Portfolio",
+export const profile = {
+  name: "Bhavik Prajapati",
+  role: "Software Engineer",
+  location: "Ahmedabad, India",
+  email: "bhavikprajapati4244@gmail.com",
+  phone: "+91 96382 71908",
+  resume: "/Bhavik_Prajapati_Resume.pdf",
+  summary:
+    "Full stack software engineer focused on scalable web products, clean user experiences, and backend systems that stay reliable in production.",
+  intro:
+    "I build modern applications with Angular, React.js, Node.js, Express.js, Python, and microservices architecture. My recent work spans CRM platforms, e-signature workflows, ML-powered review analysis, and chatbot automation.",
+  availability: "Open to software engineering opportunities and product-focused teams.",
+  links: {
+    github: "https://github.com/Bhavik-prajapati",
+    linkedin: "https://www.linkedin.com/in/bhavik-prajapati-67b458163/",
+    leetcode: "https://leetcode.com/u/rahul429-wq/",
+    youtube: "https://www.youtube.com/@codewithworld",
+    portfolio: "https://bhavik-portfolio.netlify.app/",
   },
-  {
-    title: "JWT Authentication ",
-    description:
-      "The App Contains Jwt authentication routes security token and many more...,and it is a simple  app that allows users on the basis of Authorization",
-    image: "/images/4.png",
-    source: "https://github.com/Bhavik-prajapati/YoutubeClone",
-    id: 0,
-    alt: "Jwt Authentication",
-  },
-  {
-    title: "Youtube Clone",
-    description:
-      "This App is called Youtube clone it contains Use of rapid api and materialize Ui",
-    image: "/images/16.png",
-    source: "https://yt2-clone.netlify.app/",
-    id: 1,
-    alt: "Yt2",
-  },
-  {
-    title: "Unsplash Clone ",
-    description:
-      "The App is called Unsplash-clone and it is a simple  app that allows users to Search interesting photos they need.",
-    image: "/images/1.png",
-    source: "https://unsplash-clone-react-app.netlify.app/",
-    id: 2,
-    alt: "Unsplash Clone",
-  },
-  {
-    title: "Mern TODO App",
-    description:
-      "This is a simple todo but technologies contained are Node(express),React,Mongodb",
-    image: "/images/17.png",
+};
 
-    source: "https://github.com/Bhavik-prajapati/MernTodoApp.git",
-    id: 3,
-    alt: "TODO App",
+export const highlights = [
+  {
+    value: "2+",
+    label: "Years of professional development across freelance and product teams",
   },
   {
-    title: "Color Flipper",
-    description:
-      "This is a simple React Application that allows users to get  the color codes which can help you to design your own website.",
-    image: "/images/7.png",
-
-    source: "https://color-flipper-react.netlify.app/",
-    id: 4,
-    alt: "Color Flipper",
-  },
-];
-export const Langs = [
-  {
-    logo: "fa-brands fa-react",
-    title: "Front-End",
-    langname: "React Js",
-    id: 1,
+    value: "4",
+    label: "Enterprise products shipped across CRM, e-signature, ML, and chatbot domains",
   },
   {
-    logo: "fa-brands fa-node-js",
-    title: "Back-End",
-    langname: "Node and Database",
-    id: 2,
+    value: "30%",
+    label: "Improvement in user engagement through performant frontend delivery",
   },
   {
-    logo: "fa-brands fa-figma",
-    title: "Ui/Ux",
-    langname: " tools like Figma",
-    id: 3,
-  },
-  {
-    logo: "fa-brands fa-git-alt",
-    title: "Git/Github",
-    langname: " tools like Git and Github",
-    id: 4,
-  },
-  {
-    logo: "fa-solid fa-bezier-curve",
-    title: "Ps/Ai",
-    langname: " tools like Photoshop and Illustrator",
-    id: 5,
-  },
-  {
-    logo: "fa-solid fa-arrow-pointer",
-    title: "Research",
-    langname: " Tools like Google and StackOverflow",
-    id: 6,
+    value: "25%",
+    label: "Backend efficiency gain through scalable APIs and service design",
   },
 ];
 
-export const anims = [
+export const featuredProjects = [
   {
-    id: 2,
-    title: "Mountain",
-    image: "/images/9.png",
-    link: "https://codepen.io/rahul429-wq/pen/vYedKbP",
+    title: "Kondesk CRM",
+    type: "Enterprise Product",
+    summary:
+      "Built core modules for business automation, user management, and workflow optimization in a production CRM used by business teams.",
+    stack: ["Angular", "Node.js", "REST APIs", "SQL"],
+    impact: "Delivered end-to-end features that improved usability and operational flow.",
   },
   {
-    id: 3,
-    title: "Bicycle",
-    image: "/images/10.png",
-    link: "https://codepen.io/rahul429-wq/pen/LYWNdWW",
+    title: "Konsign e-Signature Platform",
+    type: "Enterprise Product",
+    summary:
+      "Engineered secure document-signing workflows and backend services for an e-signature platform where reliability and security were critical.",
+    stack: ["Angular", "Node.js", "Microservices", "Authentication"],
+    impact: "Helped ship secure workflows and scalable backend services.",
   },
   {
-    id: 1,
-    title: "Todo",
-    image: "/images/15.png",
-    link: "https://codepen.io/rahul429-wq/pen/MWpaLxW",
+    title: "Revupro Review Intelligence",
+    type: "ML-Driven Internal Product",
+    summary:
+      "Developed an ML-based sentiment analysis pipeline to process customer reviews and turn unstructured feedback into actionable signals.",
+    stack: ["Python", "NLP", "Machine Learning", "Automation"],
+    impact: "Automated review analysis for faster business insights.",
   },
   {
-    id: 5,
-    title: "Burger",
-    image: "/images/14.png",
-    link: "https://codepen.io/rahul429-wq/pen/dyvMwdQ",
+    title: "Aura Immigration Chatbot",
+    type: "AI Automation",
+    summary:
+      "Built backend intelligence modules for a chatbot that improved response automation and made user conversations more useful and consistent.",
+    stack: ["Node.js", "Python", "APIs", "Automation"],
+    impact: "Improved conversation accuracy and automation quality.",
   },
   {
-    id: 4,
-    title: "Explore",
-    image: "/images/13.png",
-    link: "https://codepen.io/rahul429-wq/pen/yLMqppj",
+    title: "YouTube Clone",
+    type: "Personal Project",
+    summary:
+      "A frontend project focused on API integration, reusable UI components, and responsive layouts inspired by a real-world product experience.",
+    stack: ["React.js", "RapidAPI", "Material UI"],
+    impact: "Strengthened component architecture and API consumption skills.",
+    link: "https://yt2-clone.netlify.app/",
   },
+  {
+    title: "JWT Authentication App",
+    type: "Personal Project",
+    summary:
+      "Authentication-focused application covering authorization flows, protected routes, and token-based access patterns in a MERN-style setup.",
+    stack: ["React.js", "Node.js", "Express.js", "JWT"],
+    impact: "Explored secure auth flows and backend route protection.",
+    link: "https://github.com/Bhavik-prajapati/YoutubeClone",
+  },
+];
+
+export const skillGroups = [
+  {
+    title: "Frontend",
+    items: ["React.js", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
+  },
+  {
+    title: "Backend",
+    items: ["Node.js", "Express.js", "REST APIs", "Microservices", "Python"],
+  },
+  {
+    title: "Data & DevOps",
+    items: ["MySQL", "MongoDB", "Microsoft SQL Server", "Docker", "AWS", "CI/CD", "Linux"],
+  },
+  {
+    title: "Engineering Focus",
+    items: [
+      "System Design",
+      "API Design",
+      "Scalable Architecture",
+      "Machine Learning Integration",
+      "Data Structures",
+      "Git/GitHub",
+    ],
+  },
+];
+
+export const experience = [
+  {
+    company: "Konze India Pvt Ltd",
+    role: "Software Engineer",
+    period: "Jan 2024 - Present",
+    location: "Ahmedabad, India",
+    points: [
+      "Develop high-performance enterprise applications with Angular and Node.js.",
+      "Designed scalable REST APIs and microservices that improved backend data retrieval efficiency by 25%.",
+      "Delivered full stack features across frontend UI, backend services, database design, testing, and deployment.",
+      "Collaborated on CRM, e-signature, ML, and chatbot products with cross-functional teams.",
+    ],
+  },
+  {
+    company: "Xipra Technology",
+    role: "Freelance Software Developer",
+    period: "Jan 2021 - Jan 2022",
+    location: "Remote",
+    points: [
+      "Built production-ready software solutions directly for clients.",
+      "Implemented backend services, database schemas, and optimized SQL queries for business workflows.",
+      "Focused on delivery quality, reliability, and maintainable implementation.",
+    ],
+  },
+];
+
+export const education = [
+  {
+    school: "L.D. College of Engineering",
+    degree: "Bachelor of Engineering, Computer Engineering",
+    period: "2021 - 2024",
+    location: "Ahmedabad",
+  },
+  {
+    school: "Government Polytechnic Himmatnagar",
+    degree: "Diploma, Computer Engineering",
+    period: "2018 - 2021",
+    location: "Gujarat",
+  },
+];
+
+export const certifications = [
+  "AWS Certifications",
+  "React.js Development Certification",
+  "Google Developer Certifications",
+  "Data Structures and Algorithms with Java",
+  "Member, Web Development Team - Innovator Club (LDCE)",
 ];

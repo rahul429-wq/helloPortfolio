@@ -1,58 +1,86 @@
-#sec-4 {
-  width: 80%;
-  margin: auto;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
+.closing-section {
+  padding-bottom: 56px;
 }
 
-#sec-4 h2 {
-  font-weight: 800;
-  font-size: 65px;
-  line-height: 72px;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  max-width: 100%;
-  background: linear-gradient(
-    121.57deg,
-    #ffffff 18.77%,
-    rgba(255, 255, 255, 0.66) 60.15%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
-  /* padding-bottom: 250px; */
-  /* padding: 58px 0 16px; */
-}
-#sec-4 p {
-  font-size: 1.4rem;
+.closing-layout {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
-#sec-4 a {
-  border: 1px dotted white;
-  padding: 15px;
-  transition: 0.2s;
-}
-#sec-4 a:hover {
-  padding: 25px;
-  border: 5px dotted white;
+.info-card {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--panel-strong);
+  box-shadow: var(--shadow);
 }
 
-@media screen and (max-width: 768px) {
-  #sec-4 {
-    /* width: 100%; */
-    margin: auto;
-  }
-  #sec-4 h2 {
-    width: 100%;
-    font-size: 45px;
-    text-align: center;
-  }
-  #sec-4 .div1 {
-    width: 100%;
-    text-align: center;
-  }
-  #sec-4 a {
-    text-align: center;
+.info-card h3 {
+  margin: 0 0 18px;
+  color: var(--heading);
+  font-size: 1.35rem;
+}
+
+.stacked-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stacked-item + .stacked-item {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.stacked-item strong {
+  color: var(--heading);
+}
+
+.stacked-item span,
+.stacked-item small {
+  color: var(--text);
+}
+
+.clean-list {
+  padding-left: 18px;
+}
+
+.clean-list li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.contact-card p {
+  margin: 0 0 16px;
+  line-height: 1.7;
+}
+
+.contact-card > a {
+  display: block;
+  width: fit-content;
+  margin-bottom: 12px;
+  color: var(--heading);
+  font-weight: 600;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.contact-links a {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 980px) {
+  .closing-layout {
+    grid-template-columns: 1fr;
   }
 }
